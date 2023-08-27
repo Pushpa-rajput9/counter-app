@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter-App</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <script src="./script.js"></script>
+    <div class="app">
+      <h1>Counter App</h1>
+      <div class="middle">
+        <div class="dec">
+          <button onclick="decrement()" id="dec">Decrement by 1</button>
+        </div>
+        <p id="count">0</p>
+        <div class="inc">
+          <button onclick="increment()" id="inc">Increment by 1</button>
+        </div>
+      </div>
+
+      <button onclick="reset()" id="resets">Reset Value</button>
+      <p id="emoji">🙂</p>
+      <p id="remark">Waiting...</p>
+    </div>
+  </body>
+</html>

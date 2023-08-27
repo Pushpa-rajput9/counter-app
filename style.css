@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.app{
+    background-image: linear-gradient(red ,rgb(242, 165, 10),yellow,blue ,aqua);
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+    width: 450px;
+    border: 3px solid grey;
+ 
+}
+.middle{
+    
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 400px; 
+}
+h1{
+    position: relative;
+    bottom:20px;
+}
+#dec{
+    display: flex;
+    align-items: center;
+    height: 35px;
+    width: 150px;
+font-size: 18px;
+padding: 5px;
+
+}
+#inc{
+font-size: 18px;
+    height: 35px;
+    width: 160px;
+    padding: 5px;
+}
+#count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border: 2px solid grey;
+    height: 40px;
+    width: 40px;
+}
+#resets{
+    padding: 5px;
+    font-size: 18px;
+    height: 35px;
+    width: 160px
+}
+#emoji{
+    font-size: 40px;
+}
+button{
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    border-bottom: 4px solid grey;
+    border-right: 4px solid grey;
+
+}
+#remark{
+    color: white;
+    font-size: 19px;
+}
